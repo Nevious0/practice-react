@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/practice-react/static/css/main.dd8c51e3.chunk.css",
+    "main.js": "/practice-react/static/js/main.adae2c87.chunk.js",
+    "main.js.map": "/practice-react/static/js/main.adae2c87.chunk.js.map",
+    "runtime-main.js": "/practice-react/static/js/runtime-main.c9397ff2.js",
+    "runtime-main.js.map": "/practice-react/static/js/runtime-main.c9397ff2.js.map",
+    "static/js/2.cbd0b5d3.chunk.js": "/practice-react/static/js/2.cbd0b5d3.chunk.js",
+    "static/js/2.cbd0b5d3.chunk.js.map": "/practice-react/static/js/2.cbd0b5d3.chunk.js.map",
+    "static/js/3.fa5a50fa.chunk.js": "/practice-react/static/js/3.fa5a50fa.chunk.js",
+    "static/js/3.fa5a50fa.chunk.js.map": "/practice-react/static/js/3.fa5a50fa.chunk.js.map",
+    "index.html": "/practice-react/index.html",
+    "static/css/main.dd8c51e3.chunk.css.map": "/practice-react/static/css/main.dd8c51e3.chunk.css.map",
+    "static/js/2.cbd0b5d3.chunk.js.LICENSE.txt": "/practice-react/static/js/2.cbd0b5d3.chunk.js.LICENSE.txt",
+    "static/media/carlo.b0904af9.jpg": "/practice-react/static/media/carlo.b0904af9.jpg",
+    "static/media/iconcom.0ec6ab53.jpg": "/practice-react/static/media/iconcom.0ec6ab53.jpg",
+    "static/media/jonathan.0b951f4f.jpg": "/practice-react/static/media/jonathan.0b951f4f.jpg",
+    "static/media/kristina.3b8b3a8d.jpg": "/practice-react/static/media/kristina.3b8b3a8d.jpg",
+    "static/media/nevie.00daa562.jpg": "/practice-react/static/media/nevie.00daa562.jpg",
+    "static/media/pixabay.863e6935.jpg": "/practice-react/static/media/pixabay.863e6935.jpg",
+    "static/media/sebastian.050eab15.jpg": "/practice-react/static/media/sebastian.050eab15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9397ff2.js",
+    "static/js/2.cbd0b5d3.chunk.js",
+    "static/css/main.dd8c51e3.chunk.css",
+    "static/js/main.adae2c87.chunk.js"
+  ]
+}
