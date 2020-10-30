@@ -1,0 +1,47 @@
+.portfolio {
+  width: 85vw;
+  margin: 0 auto;
+}
+.portfolio h1 {
+  margin: 15px 15px;
+  text-align: center;
+  color: #d46759;
+}
+.my-portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 300px;
+}
+.first,
+.second,
+.third,
+.forth,
+.fifth,
+.sixth {
+  box-shadow: 0 5px 5px #36363680;
+  border-radius: 8px;
+}
+.price {
+  color: #682405;
+  text-shadow: 0 4px 3px rgb(0, 0, 0, 0.5);
+}
+.info {
+  padding: 10px 15px;
+}
+@media screen and (max-width: 500px) {
+  .portfolio {
+    width: 85vw;
+    margin: 0 auto;
+  }
+  .my-portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+  }
+}

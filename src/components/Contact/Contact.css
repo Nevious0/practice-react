@@ -1,0 +1,108 @@
+.nav-contact {
+  width: 85vh;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.myContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.person-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 100vh;
+  border-radius: 20px;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  color: #333;
+  margin-bottom: 20px;
+}
+.name,
+.web {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-twitter-square {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0, 0, 0, 0.5);
+}
+.fa-facebook-square {
+  color: #fff;
+  padding: 7px 7px;
+  background-color: blue;
+  border-radius: 3px;
+}
+.fa-instagram-square {
+  color: #fff;
+  padding: 7px 7px;
+  background-color: crimson;
+  border-radius: 3px;
+}
+.fa-twitter-square {
+  color: #fff;
+  padding: 7px 7px;
+  background-color: #0899c5;
+  border-radius: 3px;
+}
+.email {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.btn {
+  background-color: brown;
+  padding: 16px 30px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  line-height: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+@media screen and (max-width: 500px) {
+  .nav-contact {
+    width: 85vh;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+  }
+  .myContact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .person-1 {
+    width: 370px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,86 @@
+.home {
+  margin: 0 auto;
+  width: 85vw;
+}
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #fff;
+  text-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+  height: 40vh;
+  margin-bottom: 15px;
+}
+.home-item {
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+}
+span {
+  color: brown;
+}
+.languages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+  padding: 10px 20px;
+}
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5 {
+  font-size: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+  text-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+}
+.web-dev {
+  text-align: center;
+  margin: 15px 0;
+}
+@media screen and (max-width: 500px) {
+  .languages {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  padding: 10px 15px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.about,
+.myJourney {
+  width: 400px;
+  background-color: rgb(6, 6, 58);
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+}
